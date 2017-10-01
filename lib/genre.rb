@@ -12,7 +12,7 @@ end
 
  def artists
    @songs.collect do |song|
-     song.artist.uniq
+     song.artist
    end
  end
 
