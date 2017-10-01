@@ -16,8 +16,8 @@ def songs
 end
 
 def genres
-  @songs.collect do |song| 
-    song.genre 
+  @songs.collect do |song|
+    song.genre
   end
 end
 end
