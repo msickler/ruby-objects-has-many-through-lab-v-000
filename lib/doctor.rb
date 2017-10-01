@@ -15,4 +15,10 @@ def appointments
   @appointments
 end
 
+def patients
+  @appointments. each do |appointment|
+    appointment.patient
+  end
+end
+
 end
