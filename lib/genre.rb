@@ -11,7 +11,7 @@ def songs
 end
 
  def artists
-   self.songs.collect do |song|
+   @songs.collect do |song|
      song.artist.uniq
    end
  end
