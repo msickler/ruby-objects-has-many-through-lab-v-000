@@ -10,7 +10,7 @@ def songs
  @songs
 end
 
- def artist
+ def artists
    self.songs.collect do |song|
      song.artist.uniq
    end
