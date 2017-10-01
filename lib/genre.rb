@@ -6,11 +6,6 @@ def initialize(name)
   @songs = []
 end
 
-def add_song(song)
-  @songs << song
-  songs.genre = self
-end
-
 def songs
  @songs
 end
