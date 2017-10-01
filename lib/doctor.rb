@@ -16,7 +16,7 @@ def appointments
 end
 
 def patients
-  @appointments. each do |appointment|
+  @appointments.each do |appointment|
     appointment.patient
   end
 end
