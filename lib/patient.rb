@@ -13,7 +13,7 @@ class Patient
   end
 
   def doctors
-    @appointments.each do |appointment|
+    @appointments.collect do |appointment|
       appointment.doctor
     end
   end
